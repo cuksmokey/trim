@@ -1,0 +1,4 @@
+backup_db/
+__pycache__/
+data_exports/
+operation_logs/
