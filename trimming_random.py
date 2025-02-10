@@ -51,7 +51,7 @@ def trimming_random(order, ukuran, lebar_1, lebar_2, lebar_3, substance_id=None)
     consecutive_same_results = 0
     last_detail = None
 
-    for z in range(40000):
+    for z in range(30000):
         # Check for interrupts
         if check_interruption(substance_id):
             print(f"Trimming calculation interrupted for substance {substance_id}")
