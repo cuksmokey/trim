@@ -55,16 +55,16 @@ const UnpairedRollsSuggestions = function(props) {
                 suggestions.map(function(suggestion, index) {
                     return React.createElement('tr', { key: index },
                         React.createElement('td', { style: { border: '1px solid #ddd', padding: '8px' } }, 
-                            suggestion.originalWidth + 'mm'
+                            suggestion.originalWidth + ' cm'
                         ),
                         React.createElement('td', { style: { border: '1px solid #ddd', padding: '8px', color: '#2563eb', fontWeight: 500 } }, 
-                            suggestion.suggestedWidth + 'mm'
+                            suggestion.suggestedWidth + ' cm'
                         ),
                         React.createElement('td', { style: { border: '1px solid #ddd', padding: '8px' } }, 
                             suggestion.quantity
                         ),
                         React.createElement('td', { style: { border: '1px solid #ddd', padding: '8px' } }, 
-                            maxWidth + 'mm'
+                            maxWidth + ' cm'
                         )
                     );
                 })
